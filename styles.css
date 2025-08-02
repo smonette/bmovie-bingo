@@ -1,5 +1,7 @@
 html {
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 body {
@@ -32,7 +34,8 @@ h1 {
   background-color: #FFF;
   height: 4em;
   border: 1px solid #DEDEDE;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 #card td p {
@@ -40,7 +43,7 @@ h1 {
 }
 
 #shareurl {
-  width: 80%;
+  width: 100%;
   font-size: 16pt;
 }
  
