@@ -50,7 +50,7 @@ function generateKey(data) {
 Zepto(function($) {
   console.log("Ready!");
     
-  $.getJSON("/cell-data.json", function(data) {
+  $.getJSON("cell-data.json", function(data) {
     var params = readParams(window.location.search);
     var key = params.key;
 
