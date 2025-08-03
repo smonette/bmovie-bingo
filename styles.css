@@ -9,27 +9,30 @@ body {
   margin: 0 auto;
 }
 
+.intro {
+  text-align: center;
+}
+
 h1 {
   color: steelblue;
 }
 
-#card {
+.card {
   width: 100%;
   background-color: #DEDEDE;
-  padding: 2em;
 }
 
-#card th {
+.card th {
   width: 20%;
 }
 
-#card th h2 {
+.card th h2 {
   text-align: center;
   font-family: sans-serif;
   font-size: 24pt;
 }
 
-#card td {
+.card td {
   text-align: center;
   background-color: #FFF;
   height: 4em;
@@ -38,12 +41,23 @@ h1 {
   line-height: 1.8rem;
 }
 
-#card td p {
+.card td p {
   vertical-align: middle;
 }
 
-#shareurl {
+.share-container {
+  margin-top:  6rem;;
+}
+.shareurl {
   width: 100%;
   font-size: 16pt;
 }
  
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

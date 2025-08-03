@@ -36,63 +36,66 @@
     <!-- Bulma core CSS -->
   </head>
   <body>
-    <h1>B-Movie Bingo</h1>
-    <p>
-      Watch trashy movies, win trashy prizes.
-    </p>
+    <div class="intro">
+      <h1>B-Movie Bingo</h1>
+      <p>
+        Watch trashy movies, win trashy prizes.
+      </p>
+    </div>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th><h2>B</h2></th>
+            <th><h2>I</h2></th>
+            <th><h2>N</h2></th>
+            <th><h2>G</h2></th>
+            <th><h2>O</h2></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td id="free">Something so awesome, that you've never seen before.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <table id="card" class="table">
-      <thead>
-        <tr>
-          <th><h2>B</h2></th>
-          <th><h2>I</h2></th>
-          <th><h2>N</h2></th>
-          <th><h2>G</h2></th>
-          <th><h2>O</h2></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td id="free">Something so awesome, that you've never seen before.</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p>
+    <div class="share-container no-print">
       Share this exact card:<br />
-      <input type="text" readonly="readonly" id="shareurl" />
-    </p>
+      <input type="text" readonly="readonly" class="shareurl" />
+    </div>
   </body>
 </html>
